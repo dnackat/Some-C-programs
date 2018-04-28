@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Questions
 
-You can use the [editor on GitHub](https://github.com/dnackat/some-neat-programs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## What's `stdint.h`?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A: stdint.h is a header file in the C standard library that provide a set of typedefs to set up exact width integer types along with an upper and a lower limit.
 
-### Markdown
+## What's the point of using `uint8_t`, `uint32_t`, `int32_t`, and `uint16_t` in a program?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A: They specify the exact size of memory for a given variable, irrespective of the platform on which the program is run.
 
-```markdown
-Syntax highlighted code block
+## How many bytes is a `BYTE`, a `DWORD`, a `LONG`, and a `WORD`, respectively?
 
-# Header 1
-## Header 2
-### Header 3
+A: 1 byte, 4 bytes, 4 bytes, and 2 bytes respectively.
 
-- Bulleted
-- List
+## What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be? Leading bytes used to identify file formats (with high probability) are generally called "magic numbers."
 
-1. Numbered
-2. List
+A: The first two bytes of a BMP file are 0x42 and 0x4D in hexadecimal (BM in ASCII).
 
-**Bold** and _Italic_ and `Code` text
+## What's the difference between `bfSize` and `biSize`?
 
-[Link](url) and ![Image](src)
-```
+A: bfSize is the total size in bytes of the BMP file, whereas biSize is the size in bytes of the 'BITMAPINFOHEADER' struct.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## What does it mean if `biHeight` is negative?
 
-### Jekyll Themes
+A: If biHeight is negative, the BMP is top-down with origin at the top left corner.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dnackat/some-neat-programs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## What field in `BITMAPINFOHEADER` specifies the BMP's color depth (i.e., bits per pixel)?
 
-### Support or Contact
+A: The variable biBitCount.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Why might `fopen` return `NULL` in lines 24 and 32 of `copy.c`?
+
+A: There are several reasons why this can happen:
+   . The file doesn't exist
+   . You do not have permission to access the file
+   . The file exists in a different directory than the one the program is searching in
+   . The file is opened in a mode that doesn't allow the current operation
+
+## Why is the third argument to `fread` always `1` in our code?
+
+A: It is because we intend to read the image file one pixel (triple) at a time, so the **qty** argument is set to 1.
+
+## What value does line 63 of `copy.c` assign to `padding` if `bi.biWidth` is `3`?
+
+A: The padding value would be 3 bytes.
+
+## What does `fseek` do?
+
+A: **fseek** is used to move the file pointer associated with a file to a desired position.
+
+## What is `SEEK_CUR`?
+
+A: **SEEK_CUR** denotes the pointer's current position.
