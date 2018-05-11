@@ -12,6 +12,6 @@
 
 **- Resizing BMP images**
 
-**- Recovering JPEG files from a raw image of a FAT-32 based file system**
+**- Recovering JPEG files from a raw image of a FAT-based file system**
 
 **- Spell check a text file (using a specified dictionary file) using a hash table implementation.** 
