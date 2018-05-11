@@ -24,11 +24,9 @@
         character is added to the array. If the index exceeds the maximum length of the `word` array (45 in this case), we use a for loop to run through the rest of the
         characters in the word being read from the text file until we arrive at the next word - this is akin to fast-forwarding or advancing the 'read' location in
         the input file. We reset the `index` to 0 at the end of such a word, so we can start counting the characters of a new word.
-
         We do a similar thing of running through characters of words (which is a way of not considering these words) which are alphanumeric. For all other words that have
         a length greater than 0 and less than `index`, and ones that don't have any numbers in them, we add a trailing '\0' character to mark the end of a whole 'legal'
         (in this case) word.
-
         We then call the `check` function one each word to decide if the word is misspelled (i.e., it does not exist in the specified dictionary) - in which case, we
         print that word and update the misspellings counter, which keeps track of how many misspelled words there are in the input file.
 
