@@ -1,6 +1,6 @@
 # Hello there!
 
-## These are some C programs I wrote for a class. Here's an overview of what these programs were written for:
+## These are some programs I wrote for CS50 (Harvardx). Here's an overview of what these programs were written for:
 
 - Calculating the lowest number of coins required for a given change amount
 
