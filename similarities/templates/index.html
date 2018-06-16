@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <div class="col">
+        <form action="/compare" enctype="multipart/form-data" method="post">
+
+            <!-- Fields for uploading 2 files -->
+            <p><input type="file" name="file1"></p>
+            <p><input type="file" name="file2"></p>
+
+            <!-- Fields for choosing comparison algorithm -->
+            <p><input type="radio" name="algorithm" value="lines"> Compare lines</p>
+            <p><input type="radio" name="algorithm" value="sentences"> Compare sentences</p>
+            <p><div><input type="radio" name="algorithm" value="substrings" id="substrings"> Compare substrings</div>
+            <div><input type="number" name="length" placeholder="of length n" onclick=radioCheck()></div></p>
+            <p><input type="submit" value="Compare"></p>
+
+            <!-- Function to check radio button when corresponding field is clicked -->
+            <script>
+            function radioCheck() {
+                var x = document.getElementById("substrings");
+                x.checked = true;
+            }
+            </script>
+
+        </form>
+    </div>
+
+{% endblock %}
