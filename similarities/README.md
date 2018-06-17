@@ -6,6 +6,6 @@ based on the following criteria**:
   
   To run the flask app, cd into the folder in which this code lives on the terminal and do:  
   ```
-  export FLASK_APP=application.py
-  flask run
+  $ export FLASK_APP=application.py
+  $ flask run
   ```
