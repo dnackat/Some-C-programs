@@ -8,7 +8,7 @@
 
 - Cracking 5 letter alphabetical passwords (*encrypted with C's own DES*)
 
-- Generating music using `ASCII`-ised versions of notes and durations
+- Generating music using `ASCII`- ised versions of notes and durations
 
 - Resizing `BMP` images
 
