@@ -14,4 +14,6 @@
 
 - Recovering `JPEG` files from a raw image of a `FAT`- based file system
 
-- Spell check a text file (using a specified dictionary file) using a hash table implementation
+- Spell check a text file (using a specified dictionary file) using a hash table implementation  
+
+- Creating a website for checking similarities between two files line-wise, sentence-wise, or based on substrings on a specified length (_HTML/CSS front-end, Python back-end_)
