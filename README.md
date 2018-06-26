@@ -18,6 +18,6 @@
 
 - Spell check a text file (using a specified dictionary file) using linked lists and a hash table  
     
-### Python/JavaScript/AJAX (with HTML/CSS/JINJA2)  
+### Python/JavaScript/AJAX (with HTML/CSS/Jinja2)  
  
 - Creating a website for checking similarities between two files line-wise, sentence-wise, or based on substrings of a specified length (_HTML/CSS/Jinja2 front-end, Python/Flask back-end_)
