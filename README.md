@@ -1,6 +1,8 @@
 # Hello there!
 
-## These are some programs I wrote for CS50 (Harvardx). Here's an overview of what these programs were written for:
+## These are some programs I wrote for CS50 (Harvardx). Here's an overview of what these programs were written for:  
+  
+  ### C
 
 - Calculating the lowest number of coins required for a given change amount
 
@@ -14,6 +16,8 @@
 
 - Recovering `JPEG` files from a raw image of a `FAT`- based file system
 
-- Spell check a text file (using a specified dictionary file) using a hash table implementation  
+- Spell check a text file (using a specified dictionary file) using linked lists and a hash table  
+  
+  ### Python/JavaScript/AJAX (and HTML/CSS/JINJA2)
 
 - Creating a website for checking similarities between two files line-wise, sentence-wise, or based on substrings of a specified length (_HTML/CSS/Jinja2 front-end, Python/Flask back-end_)
