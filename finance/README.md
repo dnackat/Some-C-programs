@@ -1,4 +1,5 @@
-__Finance__: _This is a dummy share trading website where users can register, login, quote, buy, sell, browse 
+### Finance ###  
+_This is a dummy share trading website where users can register, login, quote, buy, sell, browse 
 transaction history, and logout. This website is implemented using Python/Flask on the back-end with a SQLite database
 and HTML/CSS/Jinja2 on the front-end. Follow these instructions to launch the website_:  
   
