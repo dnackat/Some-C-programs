@@ -8,7 +8,7 @@ and HTML/CSS/Jinja2 on the front-end. Follow these instructions to launch the we
 ```
   $ pip install cs50   
 ```
-4. Once cs50 library is installed, navigate to the folder where the application (`application.py`) lives on your terminal and do:  
+4. Once cs50 library is installed, navigate to the folder where the application (`application.py`) lives and do:  
 ```
   $ flask run  
 ````  
