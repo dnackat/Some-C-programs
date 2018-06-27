@@ -20,4 +20,7 @@
     
 ### Python/JavaScript/AJAX (with HTML/CSS/Jinja2)  
  
-- Creating a website for checking similarities between two files line-wise, sentence-wise, or based on substrings of a specified length (_HTML/CSS/Jinja2 front-end, Python/Flask back-end_)
+- Creating a website for checking similarities between two files line-wise, sentence-wise, or based on substrings of a specified length (_HTML/CSS/Jinja2 front-end, Python/Flask back-end_)  
+  
+- Creating a dummy share trading webiste where users can register; login and logout; quote, buy, and sell shares; and browse
+through their transaction history (_HTML/CSS/Jinja2 front-end, Python/Flask back-end with SQLite Database_) 
