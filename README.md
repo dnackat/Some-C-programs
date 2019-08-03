@@ -27,4 +27,6 @@ through their transaction history (_HTML/CSS/Jinja2 front-end, Python/Flask back
   
 - Creating a web app that lets users search for top articles from Google news atop a map using city name and state or a zipcode 
 (_HTML/CSS/JavaScript/jQuery front-end with Ajax to return articles as JSON objects, Python/Flask back-end with SQLite Database_)    
+
+
 __Note__: _This repo also includes code written by the course staff._
